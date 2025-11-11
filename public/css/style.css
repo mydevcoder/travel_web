@@ -1,0 +1,120 @@
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+/* navbar */
+.navbar{
+    height: 5rem;
+    background-color: #fff;
+}
+.fa-compass{
+    color: rgb(255,57,92);
+}
+.nav-link{
+    color: #222 !important;
+}
+
+.f-info-barand{
+    font-size: 1.2rem;
+}
+.f-info-links,
+.f-info-social,
+.f-info-barand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-social i {
+    font-size: 1.5rem;
+    margin-right: 1.3rem;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    text-align: center;
+    height: 9rem;
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.957);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    padding: 1rem 0;
+}
+
+/*cards*/
+.card{
+    border: none !important;
+    margin-bottom:2rem ;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: #fff;
+    font-weight: 600;
+}
+.btn-new{
+    background-color: #fd3845 !important;
+    border: none !important;
+}
+.edit-btn{
+    background-color: #fd3845 !important;
+    border: none !important;
+}
+
+/* show page */
+
+.show-img{
+    height: 40vh;
+}
+
+.btns{
+    display: flex;
+
+}
+.shoe-card{
+    padding-left:0 ;
+    padding-right: 0 ;
+}
+
+/* review styling */
+.review-card{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+}
+
+/* map styling */
+
+#map { height: 40vh; width: 100%; }
+    .topbar { padding: 10px; background: #f8f9fa; border-bottom: 1px solid #ccc; }
+    .btn { padding: 10px 15px; background: #2c7be5; color: white; border: none; border-radius: 6px; cursor: pointer; }
